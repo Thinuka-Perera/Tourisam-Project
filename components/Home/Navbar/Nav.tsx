@@ -34,6 +34,15 @@ const Nav = () => {
             );
           })}
         </div>
+
+
+        {/* Nav Button   */}
+        <div className="flex items-center space-x-4">
+            <button></button>  
+        </div>  
+
+
+
       </div>
     </div>
   );
