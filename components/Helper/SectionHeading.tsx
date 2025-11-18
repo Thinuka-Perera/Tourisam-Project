@@ -10,7 +10,7 @@ const SectionHeading = ({ heading }: Props) => {
       <h1 className="text-xl sm:text-3xl text-blue-950 font-bold">{heading}</h1>
 
       <p className="mt-2 text-gray-700 sm:text-base text-sm font-medium">
-        Lorem ipsum dolor sit amet consectetur.
+        Unforgettable experiences across nature, culture, and history.
       </p>
     </div>
   );
