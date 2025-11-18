@@ -17,14 +17,16 @@ const Hero = () => {
                 <div className="absolute z-[100] w-full h-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
 
                     <div className="flex items-center justify-center flex-col w-full h-full">
-                        
-                        <h1 className="text-[25px] md:text-[35px] lg:text-[45px] mb-4 text-center tracking-[0.7rem]  text-white font-bold uppercase">
-                             Lets Enjoy The Nature
-                        </h1>
+                       {/*fade-up Animation  */}
+                       <div data-aos ="fade-up">
+                          <h1 className="text-[25px] md:text-[35px] lg:text-[45px] mb-4 text-center tracking-[0.7rem]  text-white font-bold uppercase">
+                              Lets Enjoy The Nature
+                          </h1>
 
-                        <p className="text-center text-lg md:text-base text-white font-normal [word-spacing:5px]">
-                            Get the best prices on 2,000,000+ properties, worldwide
-                        </p>
+                          <p className="text-center text-lg md:text-base text-white font-normal [word-spacing:5px]">
+                              Get the best prices on 2,000,000+ properties, worldwide
+                          </p>
+                       </div> 
 
                       {/* Search Box  */}
                       <SearchBox/>
